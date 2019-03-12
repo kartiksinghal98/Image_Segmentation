@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-img=cv2.imread("/home/kartik/github/Image_Segmentation/sample-img.jpg")
+img=cv2.imread("./sample-img.jpg")
 #img = cv2.resize(img, (0,0), fx=0.2, fy=0.2) 
 #print(img.shape)
 #img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
